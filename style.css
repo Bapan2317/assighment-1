@@ -122,3 +122,74 @@ nav h3 {
 /*======================================================*/
 /*==================Header CSS star End=================*/
 /*======================================================*/
+
+/*======================================================*/
+/*=====================Main CSS start===================*/
+/*======================================================*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+/*===========Pillars of bangladesh start===========*/
+
+
+
+.pillars-of-bangladesh ul {
+    display: flex;
+    gap: 24px;
+}
+.pillars-of-bangladesh ul li {
+    background-color: #FFF;
+    /* border: 1px solid #dfdfdf; */
+    border: 1px solid #dfdfdf;
+    padding: 24px;
+    border-radius: 20px;
+}
+.pillars-of-bangladesh ul li h4 {
+    margin: 24px 0 10px 0;
+}
+
+/*===========Pillars of bangladesh End===========*/
+
+/*=======vision-of-future Section Start==========*/
+
+.vision-of-future-box-content {
+    display: flex;
+    gap: 24px;
+    margin: 34px 0;
+}
+.vision-of-future-box-content li {
+    border-radius: 20px;
+    padding: 32px;
+}
+.vision-of-future-content-box-1 {
+    background-color: #d5e1f5;
+}
+.vision-of-future-content-box-2 {
+    background-color: #c6e4d6;
+}
+.vision-of-future-content-box-3 {
+    background-color: #f7ebcf;
+}
+.vision-of-future img {
+    margin: 24PX;
+} 
+.vision-of-future-description {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.vision-of-future-content-box-1 .primary-btn {
+    background-color: #5490f5;
+}.vision-of-future-content-box-2 .primary-btn {
+    background-color: #09a15c;
+}.vision-of-future-content-box-3 .primary-btn {
+    background-color: #ffc239;
+}
+
+
+/*====vision-of-future Section End====*/
