@@ -193,3 +193,76 @@ nav h3 {
 
 
 /*====vision-of-future Section End====*/
+
+/*=======recent News Section Start========*/
+
+.launches-new-satellite {
+    display: flex;
+    gap: 32px;
+    background-color: #fff;
+    padding: 48px;
+    border-radius: 24px; 
+}
+
+.launches-new-satellite-img img {
+    border-radius: 24px;
+}
+.launches-new-satellite-contents {
+     display: grid;
+    column-gap: 24px;
+}
+.launches-new-satellite-contents-title {
+    color: #3e3e3e;
+}
+
+/*========recent News Section End=========*/
+
+/*=======Donate today Section Start=======*/
+
+
+.donate-today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+.danate-today-headings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    row-gap: 10px;
+}
+.select-amount {
+    display: flex;
+    gap: 24px;
+    /* flex-direction: column; */
+}
+.select-amount li {
+    background-color: #FFF;
+    padding: 40px;
+    border: 1px solid #dfdfdf;
+    border-radius: 16px;
+}
+.outher-amount input {
+    width: 950px;
+    height: 64px;
+    background-color: #FFF;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 40px;
+    font-size: 20px;
+}
+.outher-amount input::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+.donate-today ul li:nth-child(2) {
+    background-color: #c6e4d6;
+}
+.donate-today ul li:hover {
+    background-color: #92e2bd;
+}
+
+
+/*=======Donate today Section End=======*/
